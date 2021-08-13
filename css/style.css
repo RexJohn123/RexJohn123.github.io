@@ -1,4 +1,4 @@
-* {
+ * {
     box-sizing: border-box;
 }
 .parallax {
@@ -56,22 +56,33 @@ div {
 
  }
 /* Style the content */
+
+}
 .content {
+    border: 2px solid black;
     background-color: #ddd;
     padding: 10px;
-    height: 500px; /* Should be removed. Only for demonstration */
+    height: 500px;
+
 }
 .content h1 {
   font-family: "WindSong";
 }
 .contentarea1{
+  border: 2px solid black;
+  padding: 5px;
   background-color: #FF8C00
+
 }
 .contentarea2{
   border: 2px solid black;
   padding: 5px;
   background-color: #FFD700;
 }
+.content img {
+
+}
+/*gallory*/
 .art{
   background-color: #ddd;
   padding: 10px;
@@ -98,6 +109,8 @@ div {
   border: 2px solid black;
   padding: 1px;
 }
+/*about*/
+
 /* Style the footer */
 .footer {
     clear: right;
