@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <title>Form</title>
+  </head>
+  <a href="Home.html"><button class="HomeButton">Go Home</button></a>
+  <body>
+    <main>
+      <form>
+        <h1>Form</h1>
+        <fieldset>
+          <legend>Username/Password</legend>
+        <label> come up with a username</label><br/>
+        <input type="text" name="username" value="username"><br/>
+        <input type="text" name="password" value="password"><br/>
+        </fieldset>
+        <fieldset>
+          <legend>Your Name</legend>
+          <!-- name-->
+        <label for="frist name"> frist name</label><br/>
+        <input type="text" name="first name" value="john"/><br/>
+        <label for="last name">last name</label><br/>
+        <input type="text" name="last name" value="smith"/><br/>
+      </fieldset>
+      <fieldset>
+        <legend>Gender</legend>
+        <!-- gender-->
+        <label for="gender select"> gender</label><br/>
+        <input type="radio" name="gender select" value="female"/><span> female </span> <br/>
+        <input type="radio" name="gender select" value="male"/> <span>male</span> <br/>
+        <input type="radio" name="gender select" value="other"/> <span>other</span> <br/>
+      </fieldset>
+      <fieldset>
+        <legend>DOB</legend>
+        <!--section-->
+        <select name="brith month">
+          <option value="jan">januray</option>
+          <option value="feb">february</option>
+          <option value="mar">march</option>
+          <option value="apr">april</option>
+          <option value="may">may</option>
+          <option value="jun">june</option>
+          <option value="jul">july</option>
+          <option value="aug">august</option>
+          <option></option>
+          <option></option>
+          <option></option>
+          <option></option>
+        </select><br/>
+
+        <label>or pick your DOB</label><br/>
+        <input type="date" name="dobmonth"><br/>
+       </fieldset>
+       <fieldset>
+         <legend>Pick</legend>
+        <select name="leastfavoritanimal" size="5" multiple>
+          <option value="cat">Cats</option>
+          <option value="dog">Dogs</option>
+          <option value="rat">rats</option>
+          <option value="monkey">Monkeys</option>
+          <option value="cats">More Cats</option>
+          <option value="bugs">Bugs</option>
+
+        </select><br/>
+      </fieldset>
+      <label>this</label> <br/>
+      <input type="checkbox" name="happy" value="Happy">
+      <span>happy</span>
+      <input type="checkbox" name="happy" value="Sad">
+      <span>sad</span>
+      <input type="checkbox" name="happy" value="IDK">
+      <span>IDK</span>
+
+      <fieldset>
+        <legend> Comment </legend>
+        <!--text area-->
+        <label for="comments"> wright me a comment:</label><br/>
+        <textarea name="comments" rows="10" cols="25">
+        </textarea><br/>
+      </fieldset>
+
+        <input type="submit" name="Submit">
+        <input type="reset" name="reset">
+
+              </form>
+    </main>
+
+  </body>
+</html>
