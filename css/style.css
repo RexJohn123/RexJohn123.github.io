@@ -5,7 +5,7 @@
   background-image: url('../assets/charcter/happy.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 400px;
+  min-height: 200px;
   background-attachment: fixed;
   background-position: center;
 }
@@ -75,6 +75,21 @@ div {
   padding: 5px;
   background-color: #FFD700;
 }
+
+.contentarea3 img{
+  float: right;
+  border-radius: 50%;
+}
+.contentarea3 button{
+  border-radius: 50%;
+  float: right;
+}
+.contentarea3 button:hover{
+  font-family: cursive;
+  background-color: #FF4500;
+  color: black;
+}
+/*art/gallory*/
 .art{
   background-color: #ddd;
   padding: 10px;
