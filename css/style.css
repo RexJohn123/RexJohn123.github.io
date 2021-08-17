@@ -43,12 +43,14 @@ div {
     color: black;
 }
 .Home {
+  position: sticky;
   background-color: #000000;
   padding: 10px;
   height: 210px;
 }
  .home1 {
    z-index: 1;
+   position: sticky;
    float: none;
    border: 2px solid #FFD700;
    height: 190px;
