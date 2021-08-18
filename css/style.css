@@ -88,6 +88,10 @@ div {
   background-color: #FF4500;
   color: black;
 }
+.art button:hover{
+    font-family: cursive;
+    background-color: #FF4500;
+    color: black;
 }
 .art{
   background-color: #ddd;
@@ -97,7 +101,8 @@ div {
 .gallory1 img {
   padding: 1px;
   border: 2px solid black;
-  float: right;
+  border-radius: 50%;
+  float: left;
 }
 .gallory1 h1 {
   font-family: "WindSong";
@@ -105,15 +110,6 @@ div {
 .gallory1 p {
   text-align: center;
   border: 2px solid black;
-}
-.gallory2{
-
-}
-.gallory2 img {
-  z-index: 0.5px;
-  float: right;
-  border: 2px solid black;
-  padding: 1px;
 }
 /*art/gallory*/
 .GalloryTop{
@@ -128,15 +124,28 @@ div {
   border: 2px solid #FFD700;
   height: 275px;
   padding: 10px;
+  background-color: #ddd;
 }
 .topGallory img{
+ border: 1px solid black;
+ border-radius: 45px 15px 15px 45px;
  float: left;
- padding: 10px;
+ padding: 1px;
 }
 .topGallory h1{
+  padding: 25px;
   font-family: "WindSong";
   justify-content: center;
   font-size: 60px;
+}
+.Art1, .Art2{
+  float: none;
+  border: 2px solid #FFD700;
+  height: 400px;
+  padding: 10px;
+}
+.Art1 img, .Art2 img{
+  border: 2px solid black;
 }
 /* Style the footer */
 .footer {
