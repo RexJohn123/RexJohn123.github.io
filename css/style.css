@@ -36,7 +36,7 @@ div {
     text-decoration: none;
 }
 
-/* Change color on hover */
+/* index.html home page*/
 .topnav a:hover {
     font-family: cursive;
     background-color: #FF4500;
@@ -56,7 +56,6 @@ div {
    height: 190px;
    padding: 14px 16px;
    font-family: "WindSong";
-
  }
 /* Style the content */
 .content {
@@ -89,7 +88,7 @@ div {
   background-color: #FF4500;
   color: black;
 }
-/*art/gallory*/
+}
 .art{
   background-color: #ddd;
   padding: 10px;
@@ -115,6 +114,29 @@ div {
   float: right;
   border: 2px solid black;
   padding: 1px;
+}
+/*art/gallory*/
+.GalloryTop{
+  background-color: #000000;
+  padding: 10px;
+  height: 210px;
+}
+.topGallory{
+  z-index: 1;
+  position: sticky;
+  float: none;
+  border: 2px solid #FFD700;
+  height: 275px;
+  padding: 10px;
+}
+.topGallory img{
+ float: left;
+ padding: 10px;
+}
+.topGallory h1{
+  font-family: "WindSong";
+  justify-content: center;
+  font-size: 60px;
 }
 /* Style the footer */
 .footer {
