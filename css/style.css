@@ -1,13 +1,21 @@
 * {
     box-sizing: border-box;
 }
-.parallax {
+ .parallax {
   background-image: url('../assets/charcter/happy.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 200px;
   background-attachment: fixed;
   background-position: center;
+}
+.parallax2 {
+ background-image: url('../assets/logo/logowithbackgournd.png');
+ background-size: cover;
+ background-repeat: no-repeat;
+ min-height: 300px;
+ background-attachment: fixed;
+ background-position: center;
 }
 body {
   margin: 0;
@@ -112,12 +120,14 @@ div {
   border: 2px solid black;
 }
 /*art/gallory*/
+
 .GalloryTop{
   background-color: #000000;
   padding: 10px;
   height: 210px;
 }
 .topGallory{
+
   z-index: 1;
   position: sticky;
   float: none;
@@ -133,19 +143,36 @@ div {
  padding: 1px;
 }
 .topGallory h1{
-  padding: 25px;
+  padding: 10px;
   font-family: "WindSong";
   justify-content: center;
   font-size: 60px;
+  float: right;
 }
-.Art1, .Art2{
+.topGallory h3{
+  padding: 5px;
+  justify-content: center;
+  float: right;
+}
+.Art1{
   float: none;
   border: 2px solid #FFD700;
   height: 400px;
   padding: 10px;
 }
+.Art2 {
+  border: 2px solid #FFD700;
+  height: 550px;
+  padding: 10px 10px 10px 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
 .Art1 img, .Art2 img{
   border: 2px solid black;
+}
+.Art1 img, .Art2 img:hover{
+
 }
 /* Style the footer */
 .footer {
