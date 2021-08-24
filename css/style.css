@@ -1,6 +1,6 @@
-* {
+/* * {
     box-sizing: border-box;
-}
+}*/
  .parallax {
   background-image: url('../assets/charcter/happy.jpg');
   background-size: cover;
@@ -10,7 +10,17 @@
   background-position: center;
 }
 .parallax2 {
- background-image: url('../assets/logo/logowithbackgournd.png');
+ background-image: url('../assets/art/sky.JPG');
+ background-color: black;
+ background-size: cover;
+ background-repeat: no-repeat;
+ min-height: 300px;
+ background-attachment: fixed;
+ background-position: center;
+}
+.parallax3 {
+ background-image: url('../assets/logo/RJLOGONEW.png');
+ background-color: black;
  background-size: cover;
  background-repeat: no-repeat;
  min-height: 300px;
@@ -119,7 +129,7 @@ div {
   text-align: center;
   border: 2px solid black;
 }
-/*art/gallory*/
+/*art/gallory*//*Gallory.html*/
 
 .GalloryTop{
   background-color: #000000;
@@ -142,6 +152,10 @@ div {
  float: left;
  padding: 1px;
 }
+.topGallory img:hover{
+  height: 500px;
+  width: 500px;
+}
 .topGallory h1{
   padding: 10px;
   font-family: "WindSong";
@@ -155,10 +169,12 @@ div {
   float: right;
 }
 .Art1{
-  float: none;
   border: 2px solid #FFD700;
-  height: 400px;
-  padding: 10px;
+  height: 550px;
+  padding: 10px 10px 10px 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
 }
 .Art2 {
   border: 2px solid #FFD700;
@@ -171,7 +187,10 @@ div {
 .Art1 img, .Art2 img{
   border: 2px solid black;
 }
-.Art1 img, .Art2 img:hover{
+.Art1 img:hover, .Art2 img:hover{
+  z-index: 1;
+  height: 500px;
+  width: 500px;
 
 }
 /* Style the footer */
@@ -180,4 +199,20 @@ div {
     background-color: #696969;
     padding: 10px;
 }
-/*Gallory.html*/
+/*About.html*/
+.aboutcontentarea1{
+  border: 2px solid black;
+  padding: 5px;
+  background-color: #FFA500;
+  height: 300px;
+}
+.aboutcontentarea1 img{
+  float: right;
+  border-radius: 50%;
+}
+.aboutcontentarea2{
+  border: 2px solid black;
+  padding: 5px;
+  background-color: #FFD700;
+  height: 300px;
+}
