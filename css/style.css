@@ -184,6 +184,14 @@ div {
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
 }
+.Art3{
+  border: 2px solid #FFD700;
+  height: 350px;
+  padding: 10px 10px 10px 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
 .Art1 img, .Art2 img{
   border: 2px solid black;
 }
