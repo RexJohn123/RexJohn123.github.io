@@ -181,19 +181,31 @@ article{
   padding: 10px;
   height: 500px;
 }
-.gallory1 img {
+.gallory1 img, .gallory2 img {
   padding: 1px;
   border: 2px solid black;
   border-radius: 50%;
   float: left;
 }
-.gallory1 h1 {
+.gallory1 h1, {
   font-family: "WindSong";
 }
-.gallory1 p {
-  text-align: center;
+.gallory2 p {
+  background-color: #FF8C00;
+  padding: 25px;
+  height: 250px;
+  width: 300px;
+  text-align: right;
   border: 2px solid black;
 }
+.gallory2 img, .gallory2 button{
+  padding: 1px;
+  border: 2px solid black;
+  border-radius: 50%;
+  float: right;
+}
+
+
 /*art/gallory*//*Gallory.html*/
 
 .GalloryTop{
