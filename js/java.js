@@ -16,7 +16,7 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 2000);
 }
-/* dorpdown*//*
+/* dorpdown*/
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
