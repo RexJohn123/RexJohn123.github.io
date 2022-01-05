@@ -59,15 +59,15 @@
     box-sizing: border-box;
 }
 .parallax {
-  background-image: url('../assets/photos/bbg.png');
+  background-image: url('../assets/charcter/happy.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 450px;
+  min-height: 350px;
   background-attachment: fixed;
   background-position: center;
 }
 .parallax2 {
- background-image: url('../assets/photos/background2.jpg');
+ background-image: url('../assets/photos/gbg.png');
  background-color: black;
  background-size: cover;
  background-repeat: no-repeat;
@@ -124,20 +124,31 @@ div {
  }
 /*about*/
 #About{
-  background-color: #C0C0C0	;
+  background-color: #808080	;
 }
-#About h1 {
+#About section{
   font-family: cursive;
-  font-size:35px;
-  color: #E0FFFF;
-  margin:15%;
+  background-color: #808080;
+  margin:5%;
   align-items: center;
   text-align: center;
   float: left;
   padding: 25px;
 }
+
+#About h1 {
+  font-family: 'WindSong', cursive;
+  font-size:35px;
+  color: #E0FFFF;
+  margin:10%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
 #About img{
-   float: inherit;
+  display: flex;
+  justify-content: center;
    width: 250px;
    height: 250px;
    border-radius: 50%;
@@ -146,87 +157,82 @@ div {
   font-family: cursive;
   font-size: 18px;
   color: #E0FFFF;
-  margin:15%;
+  margin:5%;
   align-items: center;
   text-align: center;
   float: left;
   padding: 25px;
 }
-
 /*Gallory.html*/
 #Gallory1{
-  height: auto;
-  width: auto;
+
+}
+#Gallory1 section{
+  font-family: cursive;
+  background-color: #808080;
+  margin:5%;
+  align-items: center;
+  text-align: center;
+  float: left;
+  padding: 25px;
+}
+#Gallory .herobutton{
+  font-family: cursive;
+  background-color: #808080;
+  margin:5%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 25px;
 }
 .herobutton{
-  border: 2px solid black;
-  border-radius: 40%;
-  float: left;
-  align-items: center;
-  align-content: center;
-  text-align: center;
-  font-size: 60px;
-  height: 100px;
-  width: 190px;
+  background-color: #E0FFFF;
+  margin:5%;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
 }
 .herobutton:hover{
   font-family: cursive;
   background-color: #FF4500;
   color: black;
 }
-.gallory1 article, .gallory3 article{
-  background-color: #ddd;
-  padding: 5px;
-  border: 2px solid black;
-  float: right;
-}
-.gallory2 article,.gallory4 article{
-  background-color: #ddd;
-  padding: 5px;
-  border: 2px solid black;
-  float: left;
-}
-.gallory1 img, .gallory3 img {
+
+.gallory1, .gallory3 {
   padding: 1px;
   float: right;
   height: 625px;
   width: 425px;
 }
-.gallory1 h1 {
-  font-family: 'WindSong', cursive;
-}
-.gallory1 p {
-  text-align: center;
-  border: 2px solid black;
-}
-.gallory1, .gallory3{
-  float: right;
-  padding: 15px;
-  border: ;
-  background-color:;
-  height: 675px;
-  width: 450px;
-  align-content: flex-end;
-}
 .gallory2, .gallory4{
-  float: left;
-  border:;
-  background-color: ;
-  height: 675px;
-  width: 450px;
-  align-content: flex-end;
-}
-.gallory2 img, .gallory4 img{
   float: left;
   padding: 15px;
   height: 625px;
   width: 425px;
 }
+
+#Contact section{
+  font-family: cursive;
+  background-color: #808080;
+  margin:5%;
+  align-items: center;
+  text-align: center;
+  float: left;
+  padding: 25px;
+}
 /* Style the footer */
-.footer {
-    clear: right;
-    background-color: #696969;
-    padding: 10px;
+#Footer{
+
+}
+
+#Footer section{
+  font-family: cursive;
+  background-color: #808080;
+  margin:5%;
+  align-items: center;
+  text-align: center;
+  float: left;
+  padding: 25px;
 }
 /*carousel*/
 * {box-sizing:border-box}
@@ -309,13 +315,7 @@ from {opacity: .4}
 to {opacity: 1}
 }
 /*gallery*/
-}
 
-/*.GalloryTop{
-  background-color: #000000;
-  padding: 10px;
-  height: 210px;
-}*/
 .topGallory{
   z-index: 1;
   position: sticky;
