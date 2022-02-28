@@ -3,6 +3,9 @@
 
 }
 @media only screen and (max-width:500px){
+  .column {
+      width: 100%;
+  }
 }
 /*tablet*/
 @media only screen and (min-width:501px) and (max-width:1050px){
@@ -76,7 +79,7 @@
  background-position: center;
 }
 body {
-
+background-color: #C0C0C0;
 }
 div {
 
@@ -124,11 +127,13 @@ div {
  }
 /*about*/
 #About{
-  background-color: #808080	;
+
 }
 #About section{
   font-family: cursive;
-  background-color: #808080;
+  border: 5px solid #FFD700;
+  border-radius: 15px;
+  background-color: white;
   margin:5%;
   align-items: center;
   text-align: center;
@@ -139,7 +144,7 @@ div {
 #About h1 {
   font-family: 'WindSong', cursive;
   font-size:35px;
-  color: #E0FFFF;
+  color: #FF8C00;
   margin:10%;
   text-align: center;
   display: flex;
@@ -152,11 +157,12 @@ div {
    width: 250px;
    height: 250px;
    border-radius: 50%;
+   border: 5px solid #FFD700;
 }
 #About article{
   font-family: cursive;
   font-size: 18px;
-  color: #E0FFFF;
+  color: black;
   margin:5%;
   align-items: center;
   text-align: center;
@@ -169,7 +175,9 @@ div {
 }
 #Gallory1 section{
   font-family: cursive;
-  background-color: #808080;
+  border: 5px solid #FFD700;
+  border-radius: 15px;
+  background-color: white;
   margin:5%;
   align-items: center;
   text-align: center;
@@ -181,6 +189,8 @@ div {
   background-color: #808080;
   margin:5%;
   display: flex;
+  float: none;
+  align-items: center;
   justify-content: center;
   text-align: center;
   padding: 25px;
@@ -189,6 +199,8 @@ div {
   background-color: #E0FFFF;
   margin:5%;
   display: flex;
+  float: none;
+  align-items: center;
   justify-content: center;
   padding: 25px;
 }
@@ -199,18 +211,30 @@ div {
 }
 
 .gallory1, .gallory3 {
-  padding: 1px;
+  padding: 15px;
   float: right;
-  height: 625px;
-  width: 425px;
+  height: 300px;
+  width: 250px;
 }
 .gallory2, .gallory4{
   float: left;
   padding: 15px;
-  height: 625px;
-  width: 425px;
+  height: 300px;
+  width: 250px;
 }
-
+.column {
+    float: left;
+    border: 2px solid #FFD700;
+    border-radius: 15px;
+    width: 275px;
+    padding: 10px;
+    height: 315px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 #Contact section{
   font-family: cursive;
   background-color: #808080;
@@ -234,6 +258,7 @@ div {
   float: left;
   padding: 25px;
 }
+
 /*carousel*/
 * {box-sizing:border-box}
 .slideshow-container {
